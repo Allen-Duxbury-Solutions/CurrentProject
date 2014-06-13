@@ -16,3 +16,14 @@ div {
     border: 2px solid;
     border-radius: 25px;
 }
+div div {
+    width:49%;
+}
+
+#Left {
+   float: left;
+}
+#Right {
+   float: right;
+}
+
