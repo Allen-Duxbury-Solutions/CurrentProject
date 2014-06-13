@@ -11,15 +11,19 @@
   z-index:-1;
 }
 
+/*for divs */
 div {
     height:100vh;
     border: 2px solid;
     border-radius: 25px;
 }
+
+/* for divs within divs*/
 div div {
     width:49%;
 }
 
+/* for Id's Lefta nd Right -- mainly within div div */
 #Left {
    float: left;
 }
