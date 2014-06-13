@@ -8,18 +8,39 @@
 	  <link type="text/css" rel="stylesheet" href="style/banner.css"/>
     <link href="style/general.css" rel="stylesheet" type="text/css">
     <!-- install jQuery -->
-    <script src="jquery-1.11.1.min.js"></script>
+    <script src="script/jquery-1.11.1.min.js"></script>
+    <script src="script/jquery.scrollTo.js"></script>
     
+    <!-- Scrolls somewhere -->
+    <script>
+    $(document).ready(function(){
+      $("#HomeButton").click(function(){
+        $('html,body').scrollTo('#Home',{duration:500});
+      });
+      $("#AboutUsButton").click(function(){
+        $('html,body').scrollTo('#AboutUs',{duration:500});
+      });
+      $("#ChooseUsButton").click(function(){
+        $('html,body').scrollTo('#ChooseUs',{duration:500});
+      });
+      $("#PortfolioButton").click(function(){
+        $('html,body').scrollTo('#Portfolio',{duration:500});
+      });
+      $("#ContactButton").click(function(){
+        $('html,body').scrollTo('#Contact',{duration:500});
+      });
+    });
+    </script>
   </head>
   
   <body>
     <!--The menu bar along to top of the page-->
     <ul id="menu" class="Black">
-      <li class="button"><a href="#Home">Home</a></li>
-      <li class="button"><a href="#AboutUs">About Us</a></li>
-      <li class="button"><a href="#ChooseUs">Why choose us?</a></li>
-      <li class="button"><a href="#Portfolio">Portfolio</a></li>
-      <li class="button"><a href="#Contact">Contact us</a></li> 
+      <li id="HomeButton" class="button"><a>Home</a></li>
+      <li id="AboutUsButton" class="button"><a>About Us</a></li>
+      <li id="ChooseUsButton" class="button"><a>Why choose us?</a></li>
+      <li id="PortfolioButton" class="button"><a>Portfolio</a></li>
+      <li id="ContactButton" class="button"><a>Contact us</a></li> 
     </ul>
     
     <div id="Home">
