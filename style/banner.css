@@ -7,7 +7,7 @@ body{
 /*general code for the menu */
 #menu{
   position:fixed;
-  margin-top:20px;
+  margin-top:0px;
   margin-left:auto;
   margin-right:auto;
   padding:0; 
@@ -42,11 +42,8 @@ body{
 
 /*tag for first button maybe? */
 .button:first-child a{
-  -webkit-border-top-left-radius:20px;
   -webkit-border-bottom-left-radius:20px;
-  -moz-border-topleft-radius:20px;
   -moz-border-bottomleft-radius:20px;
-  border-top-left-radius:20;
   border-bottom-left-radius:20px
 }
 
@@ -90,12 +87,10 @@ body{
 
 /*tag for last button*/
 .button:last-child a{
-  float:left;
+  float:right;
   border:none;
-  -webkit-border-top-right-radius:20px;
   -webkit-border-bottom-right-radius:20px;
   -moz-border-radius:20px;
-  border-top-right-radius:20px;
   border-bottom-right-radius:20px
 }
  

@@ -1,10 +1,18 @@
 img {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   width:400px;
   height:400px;
   margin-top: -200px;
   margin-left: -200px;
+  /* sets the stack order to below everything else */
+  z-index:-1;
+}
+
+div {
+    height:100vh;
+    border: 2px solid;
+    border-radius: 25px;
 }
