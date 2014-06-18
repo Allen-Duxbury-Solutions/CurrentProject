@@ -29,16 +29,20 @@ div div p {
   font-size: 25px;
   font-family: Century Gothic, sans-serif;
   color:white;
-  background-color: #707070 ;
- margin: 30px;
-     padding: 5px;
-   border-style:solid;
-border-color:#505050  #707070 ;
-    border-width:15px;
+  background-color: #606060 ;
+  margin: 30px;
+  padding: 5px;
+  border-style:solid;
+  border-color:#505050  #707070 ;
+  border-width:15px;
+  border-radius:8px;
     
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, black), color-stop(15%, black), color-stop(100%, #606060)); 
+background: -moz-linear-gradient(top, white 0%, white 55%, #707070 130%); 
      
-  
-  
       
 }
 /* for Id's Lefta nd Right -- mainly within div div */
