@@ -23,6 +23,24 @@ div div {
     width:49%;
 }
 
+
+/*text inside the left and rights*/
+div div p {
+  font-size: 25px;
+  font-family: Century Gothic, sans-serif;
+  color:white;
+  background-color: #707070 ;
+ margin: 30px;
+     padding: 5px;
+   border-style:solid;
+border-color:#505050  #707070 ;
+    border-width:15px;
+    
+     
+  
+  
+      
+}
 /* for Id's Lefta nd Right -- mainly within div div */
 #Left {
    float: left;
