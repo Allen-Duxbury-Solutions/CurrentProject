@@ -44,7 +44,6 @@ div div p {
   font-family: Century Gothic, sans-serif;
   color:black;
   position: absolute;
-  z-index: +2;
+  z-index: +1;
   width:60%;
-  top : 105vh;
 }
