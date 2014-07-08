@@ -10,6 +10,8 @@
     <!-- install jQuery -->
     <script src="script/jquery-1.11.1.min.js"></script>
     <script src="script/jquery.scrollTo.js"></script>
+    <script src="script/skrollr.js"></script>
+    <script src="js/main.js"></script>
     
     <!-- Scrolls somewhere -->
     <script>
@@ -63,7 +65,21 @@
       </div>
   </div><!--
 --><div id="right">
+   <img id = "Gear" src="images/VectorGear.svg" alt="Image could not be loaded" 
+        data-bottom="transform:rotate(0deg);transform-origin:center;" 
+        data-top="transform:rotate(360deg);"
+        data-anchor-target="#Logo">
   </div>
+    <script type="text/javascript">
+	skrollr.init({
+		forceHeight: false,
+		easing: {
+			vibrate: function(p) {
+				return Math.sin(p * 10 * Math.PI);
+			}
+		}
+	});
+	</script>
   </body>
 </html>
 
