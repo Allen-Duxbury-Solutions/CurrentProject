@@ -21,7 +21,7 @@
 }
 #SmallGear {
     height: 10vh;
-    padding-top: 10vh;
+    top: 10vh;
     width: 10%;
     display: block;
     position:fixed;
