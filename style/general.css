@@ -14,24 +14,30 @@
 }
 
 #LargeGear {
+    top:65%;
+    height: 40%;
+    display: block;
+    position:fixed;
+}
+
+#TinyGear {
     height: 20vh;
-    width: 20%;
+    top: 10vh;
     display: block;
     position:fixed;
 }
 
 #SmallGear {
-    height: 10vh;
+    height: 30vh;
     top: 10vh;
-    width: 10%;
     display: block;
     position:fixed;
 }
 
 #HugeGear {
-    top: 5vh;
-    left:90%;
-    height: 100vh;
+    top: 20%;
+    right:89%;
+    height: 60%;
     display: block;
     position:fixed;
 }
