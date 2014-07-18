@@ -13,6 +13,15 @@
     position: relative;
 }
 
+#SelectorGear {
+    top:0.25vh;
+    left:0.5vh;
+    height: 5vh;
+    display: block;
+    position:fixed;
+    z-index: +2;
+}
+
 #LargeGear {
     top:67%;
     height: 45%;
