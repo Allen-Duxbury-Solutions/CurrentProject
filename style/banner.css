@@ -31,7 +31,7 @@ body{
   font:22px/100% Tahoma, Geneva, sans-serif;
   font-weight:bold;
   position:relative;
-  min-width:18%;
+  min-width:19%;
   height:20px;
   float:left;
   padding:10px;
@@ -86,13 +86,5 @@ body{
   background: linear-gradient(top, #000000 0%,#444444 100%);
 }
 
-/*tag for last button*/
-.button:last-child a{
-  float:right;
-  border:none;
-  -webkit-border-bottom-right-radius:20px;
-  -moz-border-radius:20px;
-  border-bottom-right-radius:20px
-}
- 
+
  
