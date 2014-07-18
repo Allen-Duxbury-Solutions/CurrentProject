@@ -14,11 +14,10 @@
 }
 
 #SelectorGear {
-    left:0.5vh;
-    height: 60px;
+    height:100px;
     display: block;
     position:fixed;
-    z-index: +2;
+    z-index: +1;
 }
 
 #LargeGear {
