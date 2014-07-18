@@ -19,6 +19,7 @@
     display: block;
     position:fixed;
 }
+
 #SmallGear {
     height: 10vh;
     top: 10vh;
@@ -26,6 +27,15 @@
     display: block;
     position:fixed;
 }
+
+#TinyGear {
+    height: 8vh;
+    top: 15vh;
+    width: 8%;
+    display: block;
+    position:fixed;
+}
+
 
 div {
     display: inline-block;
