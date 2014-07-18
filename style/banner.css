@@ -31,10 +31,9 @@ body{
   font:22px/100% Tahoma, Geneva, sans-serif;
   font-weight:bold;
   position:relative;
-  min-width:19%;
+  width:19.5%;
   height:20px;
   float:left;
-  padding:10px;
   padding-top:20px;
   padding-bottom:20px;
   text-decoration:none;
@@ -46,6 +45,12 @@ body{
   -webkit-border-bottom-left-radius:20px;
   -moz-border-bottomleft-radius:20px;
   border-bottom-left-radius:20px
+}
+
+.button:last-child a{
+  -webkit-border-bottom-right-radius:20px;
+  -moz-border-bottomright-radius:20px;
+  border-bottom-right-radius:20px
 }
 
 .Black,.Black .button a{
