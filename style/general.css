@@ -13,9 +13,16 @@
     position: relative;
 }
 
-#Gear {
+#LargeGear {
     height: 20vh;
     width: 20%;
+    display: block;
+    position:fixed;
+}
+#SmallGear {
+    height: 10vh;
+    padding-top: 10vh;
+    width: 10%;
     display: block;
     position:fixed;
 }
