@@ -31,7 +31,7 @@
 #HugeGear {
     top: 5vh;
     left:90%;
-    width: 50%;
+    height: 100vh;
     display: block;
     position:fixed;
 }
