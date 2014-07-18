@@ -28,11 +28,10 @@
     position:fixed;
 }
 
-#TinyGear {
-    height: 8vh;
-    top: 15vh;
+#HugeGear {
+    top: 5vh;
     left:90%;
-    width: 4%;
+    width: 50%;
     display: block;
     position:fixed;
 }
