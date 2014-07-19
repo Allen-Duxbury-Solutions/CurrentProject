@@ -91,19 +91,22 @@ div {
 }
 
 #centre {
-  	background-color: #308014;
-	width: 60%;
+  	background-color: #8C8C8C;
+	width: 70%;
 }
-#left {
-  	background-color: red;
-	height: 500vh;
-	width: 20%;
-}
+
 #right {
-  	background-color: red;
+  	background-color: black;
+	height: 500vh;
+	width: 10%;
+}
+
+#left {
+  	background-color: black;
 	height: 500vh;
 	width: 20%;
 }
+
 div div {
     height:100vh;
     display: block;
