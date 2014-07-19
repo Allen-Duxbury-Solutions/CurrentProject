@@ -53,7 +53,8 @@
 }
 
 #LargeGear {
-    top:67%;
+    top:63%;
+    right:2.5%;
     height: 45%;
     display: block;
     position:fixed;
@@ -69,14 +70,14 @@
 #SmallGear {
     height: 30%;
     top: 4%;
-    left: 3.5%;
+    right: 3.5%;
     display: block;
     position:fixed;
 }
 
 #HugeGear {
     top: 20%;
-    right:89%;
+    left:89%;
     height: 60%;
     display: block;
     position:fixed;
@@ -98,13 +99,13 @@ div {
 #right {
   	background-color: black;
 	height: 500vh;
-	width: 10%;
+	width: 20%;
 }
 
 #left {
   	background-color: black;
 	height: 500vh;
-	width: 20%;
+	width: 10%;
 }
 
 div div {
