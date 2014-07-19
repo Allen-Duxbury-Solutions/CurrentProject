@@ -6,10 +6,24 @@
     top: 20vh;
 }
 
+#ProfilePicture{
+    height: 20vh;
+    width  : 20vh;
+    display: block;
+}
+
 #JoeBio {
     height: 50vh;
     width:100%;
     background-color: black;
+}
+
+
+#JoeBio p {
+    color:white;
+    padding-left: 20vh;
+    width:50%;
+    
 }
 
 #DomBio {
@@ -19,6 +33,10 @@
     
 }
 
+#DomBio p{
+    padding-right: 20vh;
+    width:50%;
+}
 
 #PaintSplat {
     height: 100vh;
