@@ -6,43 +6,24 @@
     top: 20vh;
 }
 
-#ProfilePicture{
-    height: 20vh;
-    width  : 20vh;
-    display: block;
-}
-
-#JoeBio {
-    height: 50vh;
-    width:100%;
-    background-color: black;
-}
-
-
-#JoeBio p {
-    color:white;
-    padding-left: 20vh;
-    width:50%;
+#AboutUs{
+    background-image:url('../images/testbackground.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     
 }
 
-#DomBio {
-    height: 50vh;
-    width:100%;
-    background-color: white;
+#AboutUs p {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    padding-left: 12%;
+    width:47%;
+    text-align: center;
     
-}
-
-#DomBio p{
-    padding-right: 20vh;
-    width:50%;
-}
-
-#PaintSplat {
-    height: 100vh;
-    width: 100%;
-    display: block;
-    position: relative;
 }
 
 #SelectorGear {
