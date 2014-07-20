@@ -19,12 +19,59 @@
 }
 
 
+#ChooseUs table{
+    padding-left: 17%;
+    padding-top: 8%;
+    width:100%;  
+}
+
+#ChooseUs table tr {
+ height: 18vh;   
+}
+
+#ChooseUs table tr td{
+    font-family: sans-serif;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    font-size:5vh;
+    width:46.5%;
+    text-align: justify;
+    padding-right: 12%;
+}
+
 #Portfolio{
         background-image:url('../images/backgrounup.png');
      background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
+#Portfolio table{
+    padding-left: 17%;
+    padding-top: 8%;
+    width:100%;  
+}
+
+#Portfolio table tr {
+ height: 40vh;   
+}
+
+#Portfolio table tr td{
+    font-family: sans-serif;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    font-size:5vh;
+    width:46.5%;
+    text-align: justify;
+    padding-right: 12%;
+}
 
 #Contact{
         background-image:url('../images/backgrounwhiteup.png');
@@ -40,6 +87,7 @@
 }
 
 #AboutUs p {
+    font-family: sans-serif;
     color: white;
     text-shadow:
     -1px -1px 0 #000,
