@@ -1,3 +1,4 @@
+/* CSS for the Logo*/
 #Logo {
     height: 60vh;
     width: 100%;
@@ -6,18 +7,107 @@
     top: 20vh;
 }
 
+/*CSS for the Home Div, the area which holds the Logo */
 #Home{
     background-image:url('../images/backgrounwhiteup.png');
      background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
+
+/*CSS for the Gear used to Select the current page */
+#SelectorGear {
+    height:100px;
+    display: block;
+    position:fixed;
+    z-index: +1;
+}
+
+/*CSS for the gears */
+#LargeGear {
+    top:63%;
+    right:2.5%;
+    height: 45%;
+    display: block;
+    position:fixed;
+}
+
+#SmallGear {
+    height: 30%;
+    top: 4%;
+    right: 3.5%;
+    display: block;
+    position:fixed;
+}
+
+#HugeGear {
+    top: 20%;
+    left:89%;
+    height: 60%;
+    display: block;
+    position:fixed;
+}
+
+/*this gives no padding to all teh divs so we have more control over the spacing for now */
+div {
+    display: inline-block;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+#centre {
+	width: 70%;
+}
+
+/*CSS the right hand side, containing gears, 500VH as there are 5 "pages" */
+#right {
+  	background-color: black;
+	height: 500vh;
+	width: 20%;
+}
+/*CSS the left hand side,  500VH as there are 5 "pages" */
+#left {
+  	background-color: black;
+	height: 500vh;
+	width: 10%;
+}
+
+div div {
+    height:100vh;
+    display: block;
+}    
+
+/* CSS for the Why About Us section */
+#AboutUs{
+    background-image:url('../images/testbackground2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#AboutUs p {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    font-size:5vh;
+    padding-left: 12%;
+    width:46.5%;
+    text-align: justify;
+      margin-top:10vh;
+    z-index: +1;
+}
+
+/* CSS for the Why choose Us section */
 #ChooseUs{
         background-image:url('../images/backgrounwhiteup.png');
      background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
 
 #ChooseUs table{
     padding-left: 17%;
@@ -43,6 +133,7 @@
     padding-right: 12%;
 }
 
+/* CSS for the Portfolio section */
 #Portfolio{
         background-image:url('../images/backgrounup.png');
      background-size: 100% 100%;
@@ -72,7 +163,7 @@
     padding-right: 6%;
 }
 
-
+/* CSS for the Why contact Us section */
 #Contact{
         background-image:url('../images/backgrounwhiteup.png');
      background-size: 100% 100%;
@@ -81,9 +172,7 @@
     padding-top: 6%;
 }
 
-
 #Contact table{
-   
     width:100%; 
 }
 
@@ -102,104 +191,4 @@
     font-size:3vh;
     text-align: justify;
     padding-right: 6%;
-}
-
-#AboutUs{
-    background-image:url('../images/testbackground2.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
-}
-
-#AboutUs p {
-    font-family: sans-serif;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-    font-size:5vh;
-    padding-left: 12%;
-    width:46.5%;
-    text-align: justify;
-    
-}
-
-#SelectorGear {
-    height:100px;
-    display: block;
-    position:fixed;
-    z-index: +1;
-}
-
-#LargeGear {
-    top:63%;
-    right:2.5%;
-    height: 45%;
-    display: block;
-    position:fixed;
-}
-
-#TinyGear {
-    height: 20vh;
-    top: 10vh;
-    display: block;
-    position:fixed;
-}
-
-#SmallGear {
-    height: 30%;
-    top: 4%;
-    right: 3.5%;
-    display: block;
-    position:fixed;
-}
-
-#HugeGear {
-    top: 20%;
-    left:89%;
-    height: 60%;
-    display: block;
-    position:fixed;
-}
-
-
-div {
-    display: inline-block;
-    border: none;
-    padding: none;
-    margin: none;
-}
-
-#centre {
-  	background-color: #8C8C8C;
-	width: 70%;
-}
-
-#right {
-  	background-color: black;
-	height: 500vh;
-	width: 20%;
-}
-
-#left {
-  	background-color: black;
-	height: 500vh;
-	width: 10%;
-}
-
-div div {
-    height:100vh;
-    display: block;
-}    
-
-div div p {
-  font-size: 25px;
-  font-family: Century Gothic, sans-serif;
-  color:black;
-  position: absolute;
-  z-index: +1;
-  width:60%;
-  margin-top:10vh;
 }
