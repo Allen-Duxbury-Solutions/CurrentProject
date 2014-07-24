@@ -174,7 +174,13 @@ div div {
 }
 
 #Contact table{
-    width:100%; 
+    width:100%;
+border: 5px solid gray;
+border-radius: 15px 55px 15px 55px;
+-moz-border-radius: 15px 55px 15px 55px;
+-webkit-border-radius: 15px 55px 15px 55px;
+border: 9px solid 5e5e5e;
+    box-shadow: 0px 0px 3pt 2pt grey;
 }
 
 #Contact table tr {
