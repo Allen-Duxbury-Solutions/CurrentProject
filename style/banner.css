@@ -50,7 +50,7 @@
 #cssmenu #bg-two {
   height: 59px;
   z-index: 2;
-  background: url('.../images/bg.png');
+  background: url('../images/bg.png');
 }
 #cssmenu #bg-three {
   bottom: 4px;
