@@ -1,6 +1,27 @@
+
 body{
     margin: 0px;
   	background-color: black;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: -webkit-linear-gradient(left, #686868, #727376);
+	border: 1px solid #333;
+	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.4);
 }
 /* CSS for the Logo*/
 #Logo {
