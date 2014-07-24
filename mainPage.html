@@ -1,17 +1,24 @@
 <!DOCTYPE HTML >
+<html lang=''>
 <html>
   <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AD Solutions</title>
     <!-- Linking of Icon file-->
     <link rel="shortcut icon" href="images/FaviconLogo.ico">
     <!-- Linking of Banner style sheet -->
-    <link type="text/css" rel="stylesheet" href="style/banner.css"/>
+    <link rel="stylesheet" href="style/banner.css">
     <link href="style/general.css" rel="stylesheet" type="text/css">
     <!-- install jQuery -->
     <script src="script/jquery-1.11.1.min.js"></script>
     <script src="script/jquery.scrollTo.js"></script>
     <script src="script/skrollr.js"></script>
-    <script src="js/main.js"></script>
+   <script src="js/main.js"></script>
+
+
+    <script src="script/MenuScript.js"></script>
     
     <!-- Scrolls somewhere -->
     <script>
@@ -37,21 +44,23 @@
   
   <body>
     <!--The menu bar along to top of the page-->
-    <ul id="menu" class="Black">
-      <li id="HomeButton" class="button"><a>Home</a></li>
-      <li id="AboutUsButton" class="button"><a>About Us</a></li>
-      <li id="ChooseUsButton" class="button"><a>Why choose us?</a></li>
-      <li id="PortfolioButton" class="button"><a>Portfolio</a></li>
-      <li id="ContactButton" class="button"><a>Contact us</a></li>
-   </ul>
-  
-  <!--The selector gear along the top of the page-->      
-  <img id = "SelectorGear" src="images/GearSelector.png" 
-       data-start="left:7.5%;" 
-       data-end="left:87.5%;">
-      
-  <!-- The left div which contains nothing-->      
-  <div id="left">
+    <div id='cssmenu'>
+      <ul id="menu" class="Black">
+        <li id="HomeButton" class="button"><a>Home</a></li>
+        <li id="AboutUsButton" class="button"><a>About Us</a></li>
+        <li id="ChooseUsButton" class="button"><a>Why choose us?</a></li>
+        <li id="PortfolioButton" class="button"><a>Portfolio</a></li>
+        <li id="ContactButton" class="button"><a>Contact us</a></li>
+      </ul>
+      <!--The selector gear along the top of the page-->      
+
+            <img id = "SelectorGear" src="images/GearSelector.png" 
+       data-start="left:17.4%;" 
+       data-end="left:99;">
+   </div><!--
+
+   The left div which contains nothing      
+--><div id="left">
 
       
   <!-- The center div which contains the content-->       

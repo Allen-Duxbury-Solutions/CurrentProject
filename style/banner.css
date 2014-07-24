@@ -1,94 +1,112 @@
-body{
-  background: black;
-  margin:0;
-  padding:0;
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  font-family: Capriola, Helvetica, sans-serif;
+  text-align: center;
 }
-
-/*general code for the menu */
-#menu{
-  position:fixed;
-  margin-top:0px;
-  margin-left:auto;
-  margin-right:auto;
-  padding:0; 
-  padding-right:0px;
-  width:100%;
-  height:60px;
-  list-style-type:none;
-  -webkit-border-radius:20px;
-  -moz-border-radius:20px;
-  border-radius:20px;
-  -webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);
-  -moz-box-shadow:0 1px 3px rgba(0,0,0,.2);
-  box-shadow:0 1px 3px rgba(0,0,0,.2);
-  z-index: +2;
+#cssmenu {
+  width: 100%;
+  height: 59px;
+  padding-bottom: 4px;
+  position: fixed;
+  display: inline;
+  z-index: +1;
 }
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  margin-right: 0;
+  margin-left: 4px;
+}
+#cssmenu.align-right ul li:first-child,
+#cssmenu.align-right ul li:first-child > a {
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one,
+#cssmenu #bg-two,
+#cssmenu #bg-three,
+#cssmenu #bg-four {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one {
+  height: 10px;
+  background: #686868;
+}
+#cssmenu #bg-two {
+  height: 59px;
+  z-index: 2;
+  background: url('.../images/bg.png');
+}
+#cssmenu #bg-three {
+  bottom: 4px;
+  height: 55px;
+  z-index: 3;
+  background: #222222;
+  background: -moz-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -o-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #555555 0%, #222222 100%);
+  background: linear-gradient(to bottom, #555555 0%, #222222 100%);
+}
+#cssmenu #bg-four {
+  bottom: 4px;
+  height: 55px;
+  z-index: 4;
+  background: url('../images/bg.png');
+}
+#cssmenu ul {
+  height: 59px;
+}
+#cssmenu ul li {
+  float: left;
+  margin-right: 3%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 5;
+  width:17%;
+}
+#cssmenu ul li a {
+  padding: 24px 30px 20px 30px;
+  margin-bottom: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #eeeeee;
+  font-size: 15px;
+  text-decoration: none;
 
-/*code for a tag in button */
-.button a{
+}
+#cssmenu ul li:first-child,
+#cssmenu ul li:first-child > a {
+  border-bottom-left-radius: 3px;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li:active{
+  background: #0f71ba;
+  background: -moz-linear-gradient(top, #222222 0%, #686868 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #686868), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, #222222 0%, #686868 100%);
+  background: -o-linear-gradient(top, #222222 0%, #686868 100%);
+  background: -ms-linear-gradient(top, #222222 0%, #686868 100%);
+  background: linear-gradient(to bottom, #222222 0%, #686868 100%);
   cursor:pointer;
-  text-align:center;
-  font:22px/100% Tahoma, Geneva, sans-serif;
-  font-weight:bold;
-  position:relative;
-  width:20%;
-  height:3vh;
-  float:left;
-  padding-top:20px;
-  padding-bottom:20px;
-  text-decoration:none;
-  text-shadow:0 1px 1px rgba(0,0,0,.3)
 }
-
-/*tag for first button maybe? */
-.button:first-child a{
-  -webkit-border-bottom-left-radius:20px;
-  -moz-border-bottomleft-radius:20px;
-  border-bottom-left-radius:20px
+#cssmenu ul li a:hover,
+#cssmenu ul li > a {
+  background: url('../images/bg.png');
 }
-
-.button:last-child a{
-  -webkit-border-bottom-right-radius:20px;
-  -moz-border-bottomright-radius:20px;
-  border-bottom-right-radius:20px
-}
-
-.Black,.Black .button a{
-  color:#d7d7d7;
-  background: #666666;
-  background: -moz-linear-gradient(top, #666666 0%, #000000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(100%,#000000));
-  background: -webkit-linear-gradient(top, #666666 0%,#000000 100%);
-  background: -o-linear-gradient(top, #666666 0%,#000000 100%);
-  background: -ms-linear-gradient(top, #666666 0%,#000000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 );
-  background: linear-gradient(top, #666666 0%,#000000 100%);
-}
-
-/* tag for button while mouse is hovering over it */
-.Black .button a:hover,.Black .button a:focus{
-  background: #444444;
-  background: -moz-linear-gradient(top, #444444 0%, #000000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(100%,#000000));
-  background: -webkit-linear-gradient(top, #444444 0%,#000000 100%);
-  background: -o-linear-gradient(top, #444444 0%,#000000 100%);
-  background: -ms-linear-gradient(top, #444444 0%,#000000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000',GradientType=0 );
-  background: linear-gradient(top, #444444 0%,#000000 100%);
-}
-
-/*tag for button while clicked*/
-.Black .button a:active{
-  color:#666;
-  background: #000000;
-  background: -moz-linear-gradient(top, #000000 0%, #444444 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#444444));
-  background: -webkit-linear-gradient(top, #000000 0%,#444444 100%);
-  background: -o-linear-gradient(top, #000000 0%,#444444 100%);
-  background: -ms-linear-gradient(top, #000000 0%,#444444 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#444444',GradientType=0 );
-  background: linear-gradient(top, #000000 0%,#444444 100%);
-}
-
-
- 
