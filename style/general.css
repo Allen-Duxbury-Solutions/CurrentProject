@@ -44,7 +44,7 @@ body{
     height:50px;
     display: block;
     position:fixed;
-    z-index: +3;
+    z-index: +10;
     top:8px
 }
 
@@ -120,7 +120,6 @@ div div {
     text-align: justify;
     margin-left:10vh;
     margin-top:12vh;
-    z-index: +1;
 }
 
 #AboutUsP2 p {
