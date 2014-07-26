@@ -81,14 +81,14 @@ div {
 }
 
 #centre {
-	width: 70%;
+	width: 80%;
 }
 
 /*CSS the right hand side, containing gears, 500VH as there are 5 "pages" */
 #right {
   	background-color: black;
 	height: 500vh;
-	width: 20%;
+	width: 10%;
 }
 /*CSS the left hand side,  500VH as there are 5 "pages" */
 #left {
