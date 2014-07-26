@@ -96,13 +96,13 @@
 }
 #cssmenu ul li:hover,
 #cssmenu ul li:active{
-  background: #0f71ba;
-  background: -moz-linear-gradient(top, #222222 0%, #686868 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #686868), color-stop(100%, white));
-  background: -webkit-linear-gradient(top, #222222 0%, #686868 100%);
-  background: -o-linear-gradient(top, #222222 0%, #686868 100%);
-  background: -ms-linear-gradient(top, #222222 0%, #686868 100%);
-  background: linear-gradient(to bottom, #222222 0%, #686868 100%);
+  background: #686868;
+  background: -moz-linear-gradient(top, black 0%, #686868 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, #686868));
+  background: -webkit-linear-gradient(top, black 0%, #686868 100%);
+  background: -o-linear-gradient(top, black 0%, #686868 100%);
+  background: -ms-linear-gradient(top, black 0%, #686868 100%);
+  background: linear-gradient(to bottom, black 0%, #686868 100%);
   cursor:pointer;
 }
 #cssmenu ul li a:hover,
