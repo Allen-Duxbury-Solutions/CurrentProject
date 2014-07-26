@@ -3,7 +3,6 @@
     background-image:url('../images/backgrounup.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    po
 }
 
 #AboutUs p {
@@ -24,8 +23,7 @@
 
 #Chimp{
     vertical-align: middle;
-    top:20vh;
-    height: 50vh;
+    height: inherit;
     left:inherit;
     display: block;
     position: relative;
@@ -33,11 +31,18 @@
     -moz-transition: all 1.5s ease;
     -webkit-transition: all 1.5s ease;
 }
-
-#AboutUs:hover #Chimp{
-    height:40%;
+#HoverArea{
+    margin:0;
+    position:relative;
+    height:60vh;
+    top:20vh;
+    
 }
 
-#AboutUs:hover p{
+#HoverArea:hover #Chimp{
+    height:40vh
+}
+
+#HoverArea:hover p{
     display:block;
 }
