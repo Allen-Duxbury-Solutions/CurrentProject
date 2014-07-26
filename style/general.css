@@ -118,15 +118,17 @@ div div {
     text-align: justify;
     margin-left:10vh;
     margin-top:12vh;
-        color:#ededed;
-    text-shadow: 0px 2px 0px rgba(255,255,255,.3);
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
 }
 
 #AboutUsP2 p {
     width:40%;
     margin-top:75vh;
-        color:#ededed;
-    text-shadow: 0px 2px 0px rgba(255,255,255,.3);
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
 }
 
 /* CSS for the Why choose Us section */
@@ -148,8 +150,9 @@ div div {
 
 #ChooseUs table tr td{
     font-family: sans-serif;
-    color:#ededed;
-    text-shadow: 0px 2px 0px rgba(255,255,255,.3); 
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
     font-size:5vh;
     width:46.5%;
     text-align: justify;
@@ -175,8 +178,9 @@ div div {
 
 #Portfolio table tr td{
     font-family: sans-serif;
-    color:#ededed;
-    text-shadow: 0px 2px 0px rgba(255,255,255,.3);  
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;  
     font-size:3vh;
     text-align: justify;
     padding-right: 6%;
@@ -207,8 +211,9 @@ border: 9px solid 5e5e5e;
 
 #Contact table tr td{
     font-family: sans-serif;
-    color:#ededed;
-    text-shadow: 0px 2px 0px rgba(255,255,255,.3);  
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
     font-size:3vh;
     text-align: justify;
     padding-right: 6%;
