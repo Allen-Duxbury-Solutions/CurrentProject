@@ -1,0 +1,43 @@
+/* CSS for the Why About Us section */
+#AboutUs{
+    background-image:url('../images/testbackground2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#AboutUs p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size:30px;
+    padding-left: 12%;
+    width:46.5%;
+    text-align: justify;
+    margin-left:10vh;
+    margin-top:12vh;
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
+}
+
+#AboutUsP2 p {
+    width:40%;
+    margin-top:75vh;
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
+}
+
+#Chimp{
+    height: 40vh;
+    left:30%;
+    display: block;
+    position: relative;
+    top: 20vh;
+}
+#AboutUsP1 {
+    max-height: 40vh;
+}
+
+#AboutUsP1 p{
+    display:none;
+}
