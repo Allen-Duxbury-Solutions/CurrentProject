@@ -10,7 +10,7 @@
     margin:auto;
     padding-left: 10%;
     padding-right:10%;
-    padding-top: 6%;
+    padding-top: 3.5%;
     width:80%;
     height:100%;
 }
@@ -30,7 +30,6 @@
     text-align: justify;
     padding-right:5%;
     padding-left:5%;
-    width:50%;
     height:30%;
 }
 
@@ -48,32 +47,33 @@
     text-decoration: underline;
 }
 
-#pair{
-    width:100%;
-    margin:auto;
-    -moz-transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    transition-delay: 0.1s;
+#Portfolio table tr td.para{
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;  
+    font-size:30px;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    height:20%;
 }
-
 
 #imageLarge{
-    max-height: 50vh;
+    height: 50vh;
     width:100%;
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     transition-delay: 0.1s;
+    border: 5px solid gray;
 }
 
-#Portfolio table p {
-
-}
 
 #imageDescriptionCell {
     font-family: sans-serif;
     align-content: center;
     text-align: center;
+    font-size:22px;
 }
     
