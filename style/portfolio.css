@@ -7,10 +7,11 @@
 }
 
 #Portfolio table{
+    margin:auto;
     padding-left: 10%;
-    padding-right:15%;
+    padding-right:10%;
     padding-top: 6%;
-    width:100%;
+    width:80%;
     height:100%;
 }
 
@@ -37,8 +38,8 @@
     color:#fff;
     text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
 	opacity: 0.8;  
-    font-size:4vh;
-    text-align: justify;
+    font-size:5vh;
+    text-align: center;
     padding-right: 0;
     padding-left: 0;
     width:50%;
@@ -56,15 +57,9 @@
     transition-delay: 0.1s;
 }
 
-#pair:hover{
-    width:120%;
-    -moz-transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    transition-delay: 0.1s;
-}
 
-#adSol{
+#imageLarge{
+    max-height: 50vh;
     width:100%;
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
@@ -72,15 +67,11 @@
     transition-delay: 0.1s;
 }
 
-#adSol:hover{
-   -moz-transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    transition-delay: 0.1s;
-    width:120%;
+#Portfolio table p {
+
 }
 
-#Portfolio table p {
+#imageDescriptionCell {
     font-family: sans-serif;
     align-content: center;
     text-align: center;
