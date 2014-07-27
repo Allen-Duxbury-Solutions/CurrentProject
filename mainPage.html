@@ -19,8 +19,7 @@
     <script src="script/jquery.scrollTo.js"></script>
     <script src="script/skrollr.js"></script>
     <script src="js/main.js"></script>
-
-
+    <script src="script/imageViewer.js"></script>
     <script src="script/MenuScript.js"></script>
     
     <!-- Scrolls somewhere -->
@@ -44,8 +43,7 @@
     });
     </script>
   </head>
-  
-  <body>
+  <body onload="javascript:preloadThumbnails()">
     <!--The menu bar along to top of the page-->
     <div id='cssmenu'>
       <ul id="menu" class="Black">
@@ -112,20 +110,77 @@
       
       <div id="Portfolio">
           <!-- A table of two rows and two columns to show our previously worked on preojcts and informationg--> 
-                <table >
-                  <tr>
-                    <td class="title"><strong>Pair Project</strong></td>
-                    <td class="title"><strong>Allen Duxbury Solutions</strong></td>
-                  </tr>
-                  <tr>
-                    <td><img src="images/PairPortfolio.png" id="pair"</td>
-                    <td><img src="images/ADPortfolio.png" id="adSol"</td>
-                  </tr>
-                <tr>
-                    <td><p>This Project involved making a peer-to-peer based education system in a group of 6, we used this as an opportunity to learn the fundamentals of website and Database design.</p></td>
-                    <td><p>This is one of the early refinements of this website, we moved through multiple stages of development to get the feel we want</p></td>
-                  </tr> 
-                </table>
+                <table border="0" cellpadding="5" cellspacing="0" width="700px">
+
+<tr>
+
+<td align="center" colspan="6" style="font-weight: bold; font-size: 18pt; color: silver;
+
+background-color: black" id="imageTitleCell">
+
+Grasslands</td>
+
+</tr>
+
+<tr>
+
+<td align="center" colspan="6" style="background-color: black">
+
+<img height="400" src="images/ADPortfolio.png" style="border-right: 1px solid; border-top: 1px solid; border-left: 1px solid;
+
+border-bottom: 1px solid" width="400" id="imageLarge" alt="default" /></td>
+
+</tr>
+
+<tr>
+
+<td align="left" colspan="6" style="padding-right: 100px; padding-left: 100px; color: white;
+
+background-color: black" id="imageDescriptionCell">
+
+This is the description for the first image. Here will be where we give details
+
+on the image that is currently being viewed.</td>
+
+</tr>
+
+<tr>
+
+<td id="scrollPreviousCell" style="color: Silver" onmouseover="scrollPrevious();" onmouseout="scrollStop();">
+
+&lt;&lt; Previous</td>
+
+<td>
+
+<img id="scrollThumb1" height="100" src="images/ADPortfolio.png" style="border-right: 1px solid; border-top: 1px solid; border-left: 1px solid;
+
+border-bottom: 1px solid" width="100" onmouseover="handleThumbOnMouseOver(0);" /></td>
+
+<td>
+
+<img id="scrollThumb2" height="100" src="images/PairPortfolio.png" style="border-right: 1px solid; border-top: 1px solid; border-left: 1px solid;
+
+border-bottom: 1px solid" width="100" onmouseover="handleThumbOnMouseOver(1);" /></td>
+
+<td>
+
+<img id="scrollThumb3" height="100" src="images/comingSoon.jpg" style="border-right: 1px solid; border-top: 1px solid; border-left: 1px solid;
+
+border-bottom: 1px solid" width="100" onmouseover="handleThumbOnMouseOver(2);" /></td>
+
+<td>
+
+<img id="scrollThumb4" height="100" src="images/comingSoon.jpg" style="border-right: 1px solid; border-top: 1px solid; border-left: 1px solid;
+
+border-bottom: 1px solid" width="100" onmouseover="handleThumbOnMouseOver(3);" /></td>
+
+<td id="scrollNextCell" style="color: Black" onmouseover="scrollNext();" onmouseout="scrollStop();">
+
+Next &gt;&gt;</td>
+
+</tr>
+
+</table>
       </div>
       
       
