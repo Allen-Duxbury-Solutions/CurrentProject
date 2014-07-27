@@ -44,44 +44,115 @@ tr .img:hover{
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-    
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
 }
+
+
 #htmlSym ~ #htmlP {
-    display:none;
+    width:60%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    display:hidden;
 }
+
 #htmlSym:hover ~ #htmlP {
     display:block;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition-delay: 0.2s;
 }
 #cssSym ~ #cssP {
-    display:none;
+        width:60%;
+        position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    display:hidden;
 }
 #cssSym:hover ~ #cssP {
     display:block;
+        opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition-delay: 0.2s;
 }
 #jsSym ~ #jsP {
-    display:none;
+        width:60%;
+        position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    display:hidden;
 }
 #jsSym:hover ~ #jsP {
+        width:60%;
     display:block;
+        opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition-delay: 0.2s;
 }
 #phpSym ~ #phpP {
-    display:none;
+        width:60%;
+        position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    display:hidden;
 }
 #phpSym:hover ~ #phpP {
     display:block;
+        opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition-delay: 0.2s;
 }
 #mysqlSym ~ #mysqlP {
-    display:none;
+        width:60%;
+        position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    display:hidden;
 }
 #mysqlSym:hover ~ #mysqlP {
     display:block;
+        opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition-delay: 0.2s;
 }
 #baseP {
+        width:60%;
     display:block;
+        position: absolute;
+        opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition-delay: 0.2s;
+    
 }
 .img:hover ~ #baseP {
-    display:none;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    display:hidden;
 }
