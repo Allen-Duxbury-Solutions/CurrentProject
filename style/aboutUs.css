@@ -29,6 +29,8 @@
     border: 5px solid gray;
     -moz-transition: all 1.5s ease;
     -webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    transition-delay: 0.2s;
 }
 #HoverArea{
     margin:0;
@@ -42,6 +44,8 @@
 #HoverArea:hover #Chimp{
     height:35vh;
     -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 #HoverArea:hover p{
