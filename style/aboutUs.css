@@ -17,9 +17,19 @@
 	opacity: 0.8;
     display:none;
     margin-top:10%;
+    
+     display:inline-block;
+    
+        vertical-align:top;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -webkit-transition: opacity 1.5s ease-in-out;
 }
 
-
+#AboutUs div p span{
+    background-color:#000;
+}
 #Chimp{
     height: 60vh;
     display: block;
@@ -50,4 +60,5 @@
 
 #HoverArea:hover p{
     display:block;
+     opacity:1;
 }
