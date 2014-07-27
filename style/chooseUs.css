@@ -1,0 +1,27 @@
+/* CSS for the Why choose Us section */
+#ChooseUs{
+        background-image:url('../images/backgrounwhiteup.png');
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#ChooseUs table{
+    padding-left: 17%;
+    padding-top: 8%;
+    width:100%;  
+}
+
+#ChooseUs table tr {
+ height: 18vh;   
+}
+
+#ChooseUs table tr td{
+    font-family: sans-serif;
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;
+    font-size:5vh;
+    width:46.5%;
+    text-align: justify;
+    padding-right: 12%;
+}
