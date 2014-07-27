@@ -28,7 +28,7 @@
 }
 
 #AboutUs div p span{
-    background-color:#000;
+    background-color:rgba(255,0,0,0);
 }
 #Chimp{
     height: 60vh;
