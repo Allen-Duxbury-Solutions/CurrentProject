@@ -40,7 +40,8 @@
 }
 
 #HoverArea:hover #Chimp{
-    height:35vh
+    height:35vh;
+    -webkit-filter: grayscale(100%);
 }
 
 #HoverArea:hover p{
