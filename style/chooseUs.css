@@ -33,6 +33,9 @@
       -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
+        -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
     
 }
 
@@ -42,9 +45,9 @@
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     
-    -webkit-filter: invert(100%);
-    -moz-filter: invert(100%);
-    filter: invert(100%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
     
     -webkit-transform: scale(1.0) rotate(-5deg);
      -ms-transform: scale(1.0) rotate(-5deg);
