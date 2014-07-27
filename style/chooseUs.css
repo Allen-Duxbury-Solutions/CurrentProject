@@ -7,7 +7,7 @@
 
 #ChooseUs table{
     padding-left: 8%;
-    padding-right: 10%;
+    padding-right: 15%;
     padding-top: 5%;
     width:100%;  
 }
@@ -23,23 +23,23 @@
 	opacity: 0.8;
     font-size:5vh;
     width:46.5%;
-    text-align: justify;
+    text-align: center;
     margin:auto;
 }
 
-#webSym {
+tr .img {
     width:15%;
     margin:auto;
       -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-        -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
-    
+    display:inline;
 }
 
-#webSym:hover{
+tr .img:hover{
     width:18%;
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
@@ -48,10 +48,40 @@
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
-    
-    -webkit-transform: scale(1.0) rotate(-5deg);
-     -ms-transform: scale(1.0) rotate(-5deg);
-    -moz-transform: scale(1.0) rotate(-5deg);
-    -o-transform: scale(1.0) rotate(-5deg);
-     transform: scale(1.0) rotate(-5deg);
+}
+#htmlSym ~ #htmlP {
+    display:none;
+}
+#htmlSym:hover ~ #htmlP {
+    display:block;
+}
+#cssSym ~ #cssP {
+    display:none;
+}
+#cssSym:hover ~ #cssP {
+    display:block;
+}
+#jsSym ~ #jsP {
+    display:none;
+}
+#jsSym:hover ~ #jsP {
+    display:block;
+}
+#phpSym ~ #phpP {
+    display:none;
+}
+#phpSym:hover ~ #phpP {
+    display:block;
+}
+#mysqlSym ~ #mysqlP {
+    display:none;
+}
+#mysqlSym:hover ~ #mysqlP {
+    display:block;
+}
+#baseP {
+    display:block;
+}
+.img:hover ~ #baseP {
+    display:none;
 }

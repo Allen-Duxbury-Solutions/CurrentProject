@@ -41,6 +41,9 @@
     -webkit-transition: all 1.5s ease;
     transition: all 1.5s ease;
     transition-delay: 0.2s;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 #HoverArea{
     margin:0;
@@ -53,12 +56,12 @@
 
 #HoverArea:hover #Chimp{
     height:35vh;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 #HoverArea:hover p{
     display:block;
-     opacity:1;
+    opacity:1;
 }
