@@ -15,7 +15,7 @@
 }
 
 #Portfolio table tr {
- height: 80vh;   
+  height: 80vh;
 }
 
 #Portfolio table tr td{
@@ -39,7 +39,8 @@
 	opacity: 0.8;  
     font-size:4vh;
     text-align: justify;
-    padding-right: 6%;
+    padding-right: 0;
+    padding-left: 0;
     width:50%;
     text-align: center;
     height:10%;
@@ -49,17 +50,33 @@
 #pair{
     width:100%;
     margin:auto;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-delay: 0.1s;
 }
 
 #pair:hover{
     width:120%;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-delay: 0.1s;
 }
 
 #adSol{
     width:100%;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-delay: 0.1s;
 }
 
 #adSol:hover{
+   -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-delay: 0.1s;
     width:120%;
 }
 

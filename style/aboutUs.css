@@ -20,7 +20,7 @@
     
      display:inline-block;
     
-        vertical-align:top;
+    vertical-align:top;
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
     -moz-transition: opacity 1.5s ease-in-out;
