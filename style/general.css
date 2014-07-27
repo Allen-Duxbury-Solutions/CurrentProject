@@ -138,12 +138,10 @@ border: 9px solid 5e5e5e;
 #ContactUsButton{
     height: 60%;
     left:30%;
-    display: block;
-    position: relative;
+    display: inline-block;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
-    opacity: 1;
 }
 
 #ContactUsButton:hover{
@@ -152,4 +150,10 @@ border: 9px solid 5e5e5e;
     -webkit-transition: opacity 1s ease-in-out;
     display:hidden; 
     opacity:0;
+}
+
+#ContactInfo1{
+    height: 60%;
+    left:-5%;
+    display: inline-block;
 }
