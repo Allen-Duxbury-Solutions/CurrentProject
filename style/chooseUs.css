@@ -24,5 +24,18 @@
     font-size:5vh;
     width:46.5%;
     text-align: justify;
-    padding-right: 12%;
+    margin:auto;
+}
+
+#webSym {
+    width:15%;
+    margin:auto;
+}
+
+#webSym:hover{
+    width:18%;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-delay: 0.3s;
 }
