@@ -1,0 +1,26 @@
+/* CSS for the Portfolio section */
+#Portfolio{
+    background-image:url('../images/backgrounup.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Portfolio table{
+    padding-left: 17%;
+    padding-top: 6%;
+    width:100%;  
+}
+
+#Portfolio table tr {
+ height: 40vh;   
+}
+
+#Portfolio table tr td{
+    font-family: sans-serif;
+    color:#fff;
+    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+	opacity: 0.8;  
+    font-size:3vh;
+    text-align: justify;
+    padding-right: 6%;
+}
