@@ -3,6 +3,7 @@
     background-image:url('../images/backgrounup.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding-right:10%;
 }
 
 #Portfolio table{
@@ -26,7 +27,8 @@
 	opacity: 0.8;  
     font-size:3vh;
     text-align: justify;
-    padding-right: 6%;
+    padding-right:5%;
+    padding-left:5%;
     width:50%;
     height:30%;
 }
@@ -41,14 +43,24 @@
     width:50%;
     text-align: center;
     height:10%;
+    text-decoration: underline;
 }
 
 #pair{
     width:100%;
+    margin:auto;
+}
+
+#pair:hover{
+    width:120%;
 }
 
 #adSol{
     width:100%;
+}
+
+#adSol:hover{
+    width:120%;
 }
 
 #Portfolio table p {
