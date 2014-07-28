@@ -33,25 +33,25 @@ imageData[9][0]="images/comingSoon.jpg";
 
 // Image title data
 
-imageData[0][1]="ADSolutions";
+imageData[0][1]="";
 
-imageData[1][1]="Pair";
+imageData[1][1]="";
 
-imageData[2][1]="Coming Soon";
+imageData[2][1]="";
 
-imageData[3][1]="Coming Soon";
+imageData[3][1]="";
 
-imageData[4][1]="Coming Soon";
+imageData[4][1]="";
 
-imageData[5][1]="Coming Soon";
+imageData[5][1]="";
 
-imageData[6][1]="Coming Soon";
+imageData[6][1]="";
 
-imageData[7][1]="Coming Soon";
+imageData[7][1]="";
 
-imageData[8][1]="Coming Soon";
+imageData[8][1]="";
 
-imageData[9][1]="Coming Soon";
+imageData[9][1]="";
 
 
 
