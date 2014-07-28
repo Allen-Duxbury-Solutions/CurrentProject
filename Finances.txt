@@ -1,0 +1,5 @@
+PUrchases
+
+Date		 Details		        Price        Paid By			Dom Owed        Joe Owed
+
+28/07/2014	 Bought WEbsite Hosting 	43.17	     Dom   			43.17  		0.00
