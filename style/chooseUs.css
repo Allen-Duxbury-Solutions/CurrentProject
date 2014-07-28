@@ -1,21 +1,18 @@
 /* CSS for the Why choose Us section */
 #ChooseUs{
-        background-image:url('../images/backgrounwhiteup.png');
-     background-size: 100% 100%;
-    background-repeat: no-repeat;
+ background-image:url('../images/backgrounwhiteup.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
 }
-
 #ChooseUs table{
     padding-left: 8%;
     padding-right: 15%;
     padding-top: 5%;
     width:100%;  
 }
-
 #ChooseUs table tr {
  height: 18vh;   
 }
-
 #ChooseUs table tr td{
     font-family: sans-serif;
     color:#fff;
@@ -26,7 +23,6 @@
     text-align: center;
     margin:auto;
 }
-
 tr .img {
     width:15%;
     margin:auto;
@@ -38,7 +34,6 @@ tr .img {
     filter: grayscale(100%);
     display:inline;
 }
-
 tr .img:hover{
     width:18%;
     -moz-transition: all 1s ease;
@@ -48,8 +43,6 @@ tr .img:hover{
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
 }
-
-
 #htmlSym ~ #htmlP {
     width:60%;
     position: absolute;
@@ -59,7 +52,6 @@ tr .img:hover{
     -webkit-transition: opacity 0.2s ease-in-out;
     display:hidden;
 }
-
 #htmlSym:hover ~ #htmlP {
     display:block;
     opacity: 1;
@@ -69,8 +61,8 @@ tr .img:hover{
     transition-delay: 0.2s;
 }
 #cssSym ~ #cssP {
-        width:60%;
-        position: absolute;
+   width:60%;
+    position: absolute;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
@@ -79,15 +71,15 @@ tr .img:hover{
 }
 #cssSym:hover ~ #cssP {
     display:block;
-        opacity: 1;
+    opacity: 1;
     transition: opacity 1.5s ease-in-out;
     -moz-transition: opacity 1.5s ease-in-out;
     -webkit-transition: opacity 1.5s ease-in-out;
     transition-delay: 0.2s;
 }
 #jsSym ~ #jsP {
-        width:60%;
-        position: absolute;
+    width:60%;
+    position: absolute;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
@@ -95,17 +87,17 @@ tr .img:hover{
     display:hidden;
 }
 #jsSym:hover ~ #jsP {
-        width:60%;
+    width:60%;
     display:block;
-        opacity: 1;
+    opacity: 1;
     transition: opacity 1.5s ease-in-out;
     -moz-transition: opacity 1.5s ease-in-out;
     -webkit-transition: opacity 1.5s ease-in-out;
     transition-delay: 0.2s;
 }
 #phpSym ~ #phpP {
-        width:60%;
-        position: absolute;
+    width:60%;
+    position: absolute;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
@@ -114,15 +106,15 @@ tr .img:hover{
 }
 #phpSym:hover ~ #phpP {
     display:block;
-        opacity: 1;
+    opacity: 1;
     transition: opacity 1.5s ease-in-out;
     -moz-transition: opacity 1.5s ease-in-out;
     -webkit-transition: opacity 1.5s ease-in-out;
     transition-delay: 0.2s;
 }
 #mysqlSym ~ #mysqlP {
-        width:60%;
-        position: absolute;
+    width:60%;
+    position: absolute;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
@@ -131,17 +123,17 @@ tr .img:hover{
 }
 #mysqlSym:hover ~ #mysqlP {
     display:block;
-        opacity: 1;
+    opacity: 1;
     transition: opacity 1.5s ease-in-out;
     -moz-transition: opacity 1.5s ease-in-out;
     -webkit-transition: opacity 1.5s ease-in-out;
     transition-delay: 0.2s;
 }
 #baseP {
-        width:60%;
+    width:60%;
     display:block;
-        position: absolute;
-        opacity: 1;
+    position: absolute;
+    opacity: 1;
     transition: opacity 1.5s ease-in-out;
     -moz-transition: opacity 1.5s ease-in-out;
     -webkit-transition: opacity 1.5s ease-in-out;

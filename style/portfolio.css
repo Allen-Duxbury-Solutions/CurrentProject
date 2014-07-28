@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     padding-right:10%;
 }
-
 #Portfolio table{
     margin:auto;
     padding-left: 10%;
@@ -14,11 +13,9 @@
     width:80%;
     height:100%;
 }
-
 #Portfolio table tr {
   height: 80vh;
 }
-
 #Portfolio table tr td{
     font-family: sans-serif;
     align-content: center;
@@ -32,7 +29,6 @@
     padding-left:5%;
     height:30%;
 }
-
 #Portfolio table tr td.title{
     color:#fff;
     text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
@@ -46,7 +42,6 @@
     height:10%;
     text-decoration: underline;
 }
-
 #Portfolio table tr td.para{
     color:#fff;
     text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
@@ -58,7 +53,6 @@
     text-align: center;
     height:20%;
 }
-
 #imageLarge{
     height: 50vh;
     width:100%;
@@ -68,12 +62,9 @@
     transition-delay: 0.1s;
     border: 5px solid gray;
 }
-
-
 #imageDescriptionCell {
     font-family: sans-serif;
     align-content: center;
     text-align: center;
     font-size:22px;
-}
-    
+}  

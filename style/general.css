@@ -2,21 +2,17 @@ body{
     margin: 0px;
   	background-color: black;
 }
-
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
 /* Track */
 ::-webkit-scrollbar {
 	width: 12px;
 }
-
 ::-webkit-scrollbar-track {
 	background: none;
 }
-
 ::-webkit-scrollbar-thumb {
 	background: -webkit-linear-gradient(left, #686868, #727376);
 	border: 1px solid #333;
@@ -30,14 +26,12 @@ body{
     position: relative;
     top: 20vh;
 }
-
 /*CSS for the Home Div, the area which holds the Logo */
 #Home{
     background-image:url('../images/backgrounwhiteup.png');
-     background-size: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
 /*CSS for the Gear used to Select the current page */
 #SelectorGear {
     height:55px;
@@ -46,7 +40,6 @@ body{
     z-index: +5;
     top:4px
 }
-
 /*CSS for the gears */
 #LargeGear {
     top:63%;
@@ -55,7 +48,6 @@ body{
     display: block;
     position:fixed;
 }
-
 #SmallGear {
     height: 30%;
     top: 4%;
@@ -63,7 +55,6 @@ body{
     display: block;
     position:fixed;
 }
-
 #HugeGear {
     top: 20%;
     left:89%;
@@ -71,7 +62,6 @@ body{
     display: block;
     position:fixed;
 }
-
 /*this gives no padding to all teh divs so we have more control over the spacing for now */
 div {
     display: inline-block;
@@ -79,11 +69,9 @@ div {
     padding: none;
     margin: none;
 }
-
 #centre {
 	width: 80%;
 }
-
 /*CSS the right hand side, containing gears, 500VH as there are 5 "pages" */
 #right {
   	background-color: black;
@@ -96,64 +84,36 @@ div {
 	height: 500vh;
 	width: 10%;
 }
-
 div div {
     height:100vh;
     display: block;
 }    
-
 /* CSS for the Why contact Us section */
 #Contact{
-        background-image:url('../images/backgrounwhiteup.png');
-     background-size: 100% 100%;
-    background-repeat: no-repeat;
-     padding-left: 10%;
-    padding-top: 6%;
+  background-image:url('../images/backgrounwhiteup.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  padding-top: 6%;
 }
-
 #Contact table{
-    width:100%;
-border: 5px solid gray;
-border-radius: 15px 55px 15px 55px;
--moz-border-radius: 15px 55px 15px 55px;
--webkit-border-radius: 15px 55px 15px 55px;
-border: 9px solid 5e5e5e;
-    box-shadow: 0px 0px 3pt 2pt grey;
+  width:100%;
+  border: 5px solid gray;
+  border-radius: 15px 55px 15px 55px;
+  -moz-border-radius: 15px 55px 15px 55px;
+  -webkit-border-radius: 15px 55px 15px 55px;
+  border: 9px solid 5e5e5e;
+  box-shadow: 0px 0px 3pt 2pt grey;
 }
-
 #Contact table tr {
  height: 80vh;   
 }
-
 #Contact table tr td{
-    font-family: sans-serif;
-    color:#fff;
-    text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
-	opacity: 0.8;
-    font-size:3vh;
-    text-align: justify;
-    padding-right: 6%;
-}
-
-#ContactUsButton{
-    height: 60%;
-    left:30%;
-    display: inline-block;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-
-#ContactUsButton:hover{
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    display:hidden; 
-    opacity:0;
-}
-
-#ContactInfo1{
-    height: 60%;
-    left:-5%;
-    display: inline-block;
+  font-family: sans-serif;
+  color:#fff;
+  text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+  opacity: 0.8;
+  font-size:3vh;
+  text-align: justify;
+  padding-right: 6%;
 }
