@@ -88,3 +88,30 @@ div div {
     height:100vh;
     display: block;
 }
+
+@media only screen and (max-device-width: 480px) {
+/* CSS for the mobile site */
+body{
+    margin: 0px;
+  	background-color: black;
+}
+right{
+    display: none;
+}
+left{
+    display:none;
+}
+#Logo {
+    height: 60%;
+    left:30%;
+    display: block;
+    position: relative;
+    top: 20vh;
+}
+/*CSS for the Home Div, the area which holds the Logo */
+#Home{
+    background-image:url('../images/backgrounwhiteup.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+	}
