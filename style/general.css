@@ -87,33 +87,4 @@ div {
 div div {
     height:100vh;
     display: block;
-}    
-/* CSS for the Why contact Us section */
-#Contact{
-  background-image:url('../images/backgrounwhiteup.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding-left: 10%;
-  padding-top: 6%;
-}
-#Contact table{
-  width:100%;
-  border: 5px solid gray;
-  border-radius: 15px 55px 15px 55px;
-  -moz-border-radius: 15px 55px 15px 55px;
-  -webkit-border-radius: 15px 55px 15px 55px;
-  border: 9px solid 5e5e5e;
-  box-shadow: 0px 0px 3pt 2pt grey;
-}
-#Contact table tr {
- height: 80vh;   
-}
-#Contact table tr td{
-  font-family: sans-serif;
-  color:#fff;
-  text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
-  opacity: 0.8;
-  font-size:3vh;
-  text-align: justify;
-  padding-right: 6%;
 }
