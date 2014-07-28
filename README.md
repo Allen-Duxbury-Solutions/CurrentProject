@@ -1,4 +1,0 @@
-CurrentProject
-==============
-
-Nothing here *wink*
