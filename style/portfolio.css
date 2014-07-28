@@ -13,9 +13,6 @@
     width:80%;
     height:100%;
 }
-#Portfolio table tr {
-  height: 80vh;
-}
 #Portfolio table tr td{
     font-family: sans-serif;
     align-content: center;
