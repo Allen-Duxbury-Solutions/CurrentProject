@@ -3,19 +3,40 @@ body{
     margin: 0px;
   	background-color: black;
 }
-
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+/* Track */
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: none;
+}
+::-webkit-scrollbar-thumb {
+	background: -webkit-linear-gradient(left, #686868, #727376);
+	border: 1px solid #333;
+	box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.4);
+}
+#centre{
+    width: 100%;
+    margin:auto;
+}    
 
 #Logo {
-    height: 60%;
-    left:30%;
-    display: block;
+    width:320px;
     position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 /*CSS for the Home Div, the area which holds the Logo */
 #Home{
     background-image:url('../images/backgrounwhiteup.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    
 }
 
 #ChooseUs{
@@ -25,10 +46,17 @@ body{
 }
 
 #Contact{
-  background-image:url('../images/backgrounwhiteup.png');
+  background-image:url('../images/backgrounup.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding-left: 10%;
-  padding-right:20%;
-  padding-top: 6%;
+}
+div {
+    display: inline-block;
+    border: none;
+    padding: none;
+}
+
+div div {
+    height:100vh;
+    display: block;
 }
