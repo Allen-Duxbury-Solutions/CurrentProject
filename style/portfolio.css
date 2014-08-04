@@ -51,6 +51,7 @@
     height:20%;
 }
 #imageLarge{
+    border-radius: 10px;
     height: 50vh;
     width:100%;
     -moz-transition: all 1s ease;
@@ -67,5 +68,6 @@
 }
 #scrollThumb1, #scrollThumb2, 
 #scrollThumb3, #scrollThumb4 {
+    border-radius: 5px;
     cursor:pointer;
 }
