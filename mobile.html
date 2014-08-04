@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=320, initial-scale=1">
     <title>AD Solutions</title>
     <!-- Linking of Icon file-->
     <link rel="shortcut icon" href="images/FaviconLogo.ico">
@@ -13,35 +13,12 @@
     <link href="style/general.css" rel="stylesheet" type="text/css" >
     <link href="style/aboutUs.css" rel="stylesheet" type="text/css" >
     <link href="style/chooseUs.css" rel="stylesheet" type="text/css" >
-    <link href="style/portfolio.css" rel="stylesheet" type="text/css" >
     <link href="style/contactUs.css" rel="stylesheet" type="text/css" >
-    <link href="style/mobile.css." rel="stylesheet" type="text/css" >
+    <link href="style/mobile.css" rel="stylesheet" type="text/css" >
     <!-- install jQuery -->
     <script src="script/jquery-1.11.1.min.js"></script>
     <script src="script/jquery.scrollTo.js"></script>
     <script src="script/skrollr.js"></script>
-    <script src="script/imageViewer.js"></script>
-    <script src="script/MenuScript.js"></script>
-    <!-- Scrolls somewhere -->
-    <script>
-    $(document).ready(function(){
-      $("#HomeButton").click(function(){
-        $('html,body').scrollTo('#Home',{duration:500});
-      });
-      $("#AboutUsButton").click(function(){
-        $('html,body').scrollTo('#AboutUs',{duration:500});
-      });
-      $("#ChooseUsButton").click(function(){
-        $('html,body').scrollTo('#ChooseUs',{duration:500});
-      });
-      $("#PortfolioButton").click(function(){
-        $('html,body').scrollTo('#Portfolio',{duration:500});
-      });
-      $("#ContactButton").click(function(){
-        $('html,body').scrollTo('#Contact',{duration:500});
-      });
-    });
-    </script>
   </head>
   <body onload="javascript:preloadThumbnails()">
     <!--The menu bar along to top of the page-->
@@ -96,21 +73,11 @@
           </tr>
           <tr>
             <td>
-              <strong style="font-size:4vh;"><a href="mailto:ContactUs@allenduxburysolutions.com">ContactUs@allenduxburysolutions.com</a></strong>
+              <strong style="font-size:4vh;"><a href="mailto:ContactUs@allenduxburysolutions.com"><button type="button">ContactUs@allenduxburysolutions.com</button></a></strong>
             </td>
           </tr>
         </table>
     </div>
     </div>
-   <script type="text/javascript">
-	skrollr.init({
-		forceHeight: false,
-		easing: {
-			vibrate: function(p) {
-				return Math.sin(p * 10 * Math.PI);
-			}
-		}
-	});
-	</script>
   </body>
 </html>
