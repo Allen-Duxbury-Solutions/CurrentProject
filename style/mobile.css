@@ -64,7 +64,8 @@ div div {
   background-repeat: no-repeat;
   padding-left: 7%;
   padding-right:7%;
-  padding-top: 10%;
+  padding-top: 75px;
+  padding-bottom:10px;
 }
 #Contact table{
   width:100%;
@@ -77,13 +78,17 @@ div div {
   height:80vh;
 }
 #Contact table tr {
-   height: 8vh;
+   height: 20px;
 }
 #Contact table tr td{
   font-family: sans-serif;
   color:#fff;
   text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
   opacity: 0.8;
-  font-size:3vh;
+  font-size:4vh;
   text-align:center;
+}
+.button {
+    font-size: 10px;
+    cursor:pointer;
 }
