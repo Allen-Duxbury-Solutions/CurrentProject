@@ -3,13 +3,8 @@ body{
     margin: 0px;
   	background-color: black;
 }
-right{
-    display: none;
-}
-left{
-    height: 300vh !important;
-    display: inline-block;
-}
+
+
 #Logo {
     height: 60%;
     left:30%;
