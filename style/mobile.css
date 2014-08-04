@@ -25,6 +25,7 @@ body{
 }    
 
 #Logo {
+    padding-top:75px;
     width:320px;
     position: relative;
     margin-left:auto;
@@ -45,11 +46,6 @@ body{
  background-repeat: no-repeat;
 }
 
-#Contact{
-  background-image:url('../images/backgrounup.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
 div {
     display: inline-block;
     border: none;
@@ -57,6 +53,37 @@ div {
 }
 
 div div {
-    height:100vh;
+    height:100%;
     display: block;
+}
+
+/* CSS for the Why contact Us section */
+#Contact{
+  background-image:url('../images/backgrounup.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 7%;
+  padding-right:7%;
+  padding-top: 10%;
+}
+#Contact table{
+  width:100%;
+  border: 5px solid gray;
+  border-radius: 15px 55px 15px 55px;
+  -moz-border-radius: 15px 55px 15px 55px;
+  -webkit-border-radius: 15px 55px 15px 55px;
+  border: 9px solid 5e5e5e;
+  box-shadow: 0px 0px 3pt 2pt grey;
+  height:80vh;
+}
+#Contact table tr {
+   height: 8vh;
+}
+#Contact table tr td{
+  font-family: sans-serif;
+  color:#fff;
+  text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
+  opacity: 0.8;
+  font-size:3vh;
+  text-align:center;
 }
