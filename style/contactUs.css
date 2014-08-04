@@ -16,9 +16,10 @@
   border: 9px solid 5e5e5e;
   box-shadow: 0px 0px 3pt 2pt grey;
   padding-left: 10%;
+  height:80vh;
 }
 #Contact table tr {
- height: 80vh;   
+   height: 10vh;
 }
 #Contact table tr td{
   font-family: sans-serif;
@@ -26,6 +27,6 @@
   text-shadow: -1px -1px 1px #fafafa, 1px 1px 1px #030303;
   opacity: 0.8;
   font-size:3vh;
-  text-align: justify;
+  text-align:center;
   padding-right: 6%;
 }
