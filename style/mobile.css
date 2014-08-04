@@ -7,18 +7,33 @@ right{
     display: none;
 }
 left{
-    display:none;
+    height: 300vh !important;
+    display: inline-block;
 }
 #Logo {
     height: 60%;
     left:30%;
     display: block;
     position: relative;
-    top: 20vh;
 }
 /*CSS for the Home Div, the area which holds the Logo */
 #Home{
     background-image:url('../images/backgrounwhiteup.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+#ChooseUs{
+ background-image:url('../images/backgrounup.png');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+#Contact{
+  background-image:url('../images/backgrounwhiteup.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  padding-right:20%;
+  padding-top: 6%;
 }
