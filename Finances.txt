@@ -4,3 +4,4 @@ Date		 Details		        Price        Paid By			Dom Owed        Joe Owed
 
 28/07/2014	 Bought WEbsite Hosting 	43.17	     Dom   			43.17  		0.00
 28/07/2014       Paid half hosting to Dom       21.60        Joe			21.57		21.60
+12/08/2014	 Purchase of business cards     7.19         Joe			21.57		28.79
