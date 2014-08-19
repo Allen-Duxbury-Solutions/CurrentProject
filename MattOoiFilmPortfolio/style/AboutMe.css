@@ -1,0 +1,54 @@
+#AboutMe
+{
+    width:100%;
+}
+#AboutMe ul li{
+    margin-right: 20%;
+    margin-left: 17.5%;
+    list-style-type: none;
+    display: block;
+}
+#AboutMe ul li h2{
+    font-family: baskerville,'palatino linotype','times new roman',serif;
+    font-size: 1.375em;
+    line-height: 1em;
+    letter-spacing: -0.045em;
+    text-align: right;
+    float: left;
+    padding-left: 10%;
+    width: 6.5em;
+    padding: 1.909em 0 2.136em;
+    border-top-width: 0.045em;
+    border-bottom: 0.045em solid #fff;
+    margin-right:4%;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#AboutMe ul li p{
+    text-align: justify;
+    margin: 1.571em 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    text-shadow:
+   color: #90e6f5;
+   text-shadow: 0 0 3px #959DA9, 0 0 6px #959DA9,
+           0 0 9px #959DA9;
+    letter-spacing: 3px;
+    -webkit-margin-before: 0px;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+#AboutMe ul li h3{
+ color: #959DA9;  
+    padding: 0;
+}
