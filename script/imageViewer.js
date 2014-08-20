@@ -14,7 +14,7 @@ imageData[0][0]="images/ADPortfolio.png";
 
 imageData[1][0]="images/pairPortfolio.png";
 
-imageData[2][0]="images/comingSoon.jpg";
+imageData[2][0]="images/MattOoiPortfolio2.png";
 
 imageData[3][0]="images/comingSoon.jpg";
 
@@ -61,7 +61,7 @@ imageData[0][2]="This is one of the early refinements of this website, we moved 
 
 imageData[1][2]="This Project involved making a peer-to-peer based education system in a group of 6, we used this as an opportunity to learn the fundamentals of website and Database design.";
 
-imageData[2][2]="More websites coming soon.";
+imageData[2][2]="This project involved hosting and displaying videos on desktops,tablets and mobile devices. we further improved our knowledge of javascript";
 
 imageData[3][2]="More websites coming soon.";
 
