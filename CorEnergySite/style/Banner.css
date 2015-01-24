@@ -62,6 +62,8 @@
 {
     display: inline;
     height: 45px;
+    font-family: CoreFont;
+    font-size: 18px;
 }
 
 #ContactUsList ul li p
@@ -107,15 +109,24 @@ overflow: hidden;
     padding-right: 100px ;
     border-right: 1px solid white;
     font-family: CoreFont;
+    
+    margin-right: -1px;
+    border-right: 1px;
+    border-right-color: purple;
+    <!-- an attempt to fix white space -->
 }
 
 #BannerMenu a:hover {
     background-color: fuchsia;
 text-shadow: 1px 2px 1px rgba(0,0,0,4);
+
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.75);
 }
 
 #BannerMenu ul li.selected a {
-    background-color: green; 
+    background-color: fuchsia; 
+    text-shadow: 1px 2px 1px rgba(0,0,0,4);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
 }
 
 #Menufiller{
