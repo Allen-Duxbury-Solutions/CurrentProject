@@ -88,6 +88,10 @@
 
 #BannerMenu li {
     display: inline;
+    font-family: CoreFont;
+    white-space: nowrap;
+overflow: hidden;
+    
 }
 
 #BannerMenu a {
@@ -102,6 +106,7 @@
     padding-left: 5px ;
     padding-right: 100px ;
     border-right: 1px solid white;
+    font-family: CoreFont;
 }
 
 #BannerMenu a:hover {
@@ -115,4 +120,10 @@ text-shadow: 1px 2px 1px rgba(0,0,0,4);
 
 #Menufiller{
     height: 140px;
+}
+
+/* Custom font */
+@font-face {
+    font-family: "CoreFont";
+    src: url('../fonts/ArkitechMedium.ttf'); 
 }
