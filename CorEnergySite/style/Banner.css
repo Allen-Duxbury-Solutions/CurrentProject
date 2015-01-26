@@ -26,7 +26,8 @@
 
 #Logo img
 {
-    height: 85px;
+    padding-top:10px; 
+    height: 65px;
     margin-left: 45px;
 }
 
@@ -34,7 +35,7 @@
 {
     float: right;
     display: inline;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 #ContactUsList ul
@@ -49,7 +50,7 @@
     display: inline;
    
     float: left;
-    padding-right: 100px;
+    padding-right: 10px;
 }
 
 #ContactUsList ul li img
@@ -88,7 +89,7 @@
     list-style-type: none;
     margin-left: 45px;
     margin-right: 100px;
-
+    
 }
 
 #BannerMenu li {
