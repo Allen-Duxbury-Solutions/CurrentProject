@@ -4,14 +4,14 @@
     height: calc(100% - (145px)); 
     float: left;
     position: relative;
-    background-image: url(../images/left2.png);
+    background-image: url(../images/left.png);
 }
     
 #RIGHT{
     width: 45px;
     height: calc(100% - (145px)); 
     float: right;
-    background-image: url(../images/right2.png);
+    background-image: url(../images/right.png);
 }
 
 #ContactContent{
